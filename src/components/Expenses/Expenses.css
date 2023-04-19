@@ -1,0 +1,43 @@
+/* Define styles for all elements with a class of "example" */
+.example {
+    font-size: 16px;
+    color: #333;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  /* Define styles for a specific element with an ID of "header" */
+  #header {
+    font-size: 24px;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Define styles for all h1 elements inside a div with an ID of "content" */
+  #content h1 {
+    font-size: 32px;
+    color: green;
+    margin-bottom: 10px;
+  }
+  
+  /* Define styles for a hover effect on a link */
+  a:hover {
+    color: red;
+    text-decoration: underline;
+  }
+  
+  /* Define a media query to adjust styles on small screens */
+  @media (max-width: 768px) {
+    .example {
+      font-size: 14px;
+      padding: 5px;
+    }
+    #header {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+  }
+  
